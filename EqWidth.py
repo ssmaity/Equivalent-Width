@@ -1,8 +1,8 @@
 '''
 This is a python code to calculate equivalent width of stokes lines.
 Created by: Samriddhi
-Date: 06 Apr, 2019
-Place : Bangalore
+Created on: 06 Apr, 2019
+Created at : Bangalore
 '''
 
 import numpy as np
