@@ -7,7 +7,8 @@ Place : Bangalore
 
 import numpy as np
 
-def width(x,y,N):
+# function to calculate equivalent width
+def eqwidth(x,y,N):
   sum = 0.0
   for j = 0 in range(1, N):
     sum = sum + (x[j-1]-x[j])*(1.0 - y[j-1]) + (1.0 - y[j])
@@ -22,5 +23,5 @@ wld = 0.02    # wavelength difference
 x = np.arange(wl, wlb, wld)
 y = loadtxt('datafile.csv') # load data file
 N = len(x)
-eqwidth = width(x,y,N)
-print(eqwidth)
+width = eqwidth(x,y,N)
+print(width)
