@@ -1,7 +1,7 @@
 '''
 This is a python code to calculate equivalent width of stokes lines.
 Created by: Samriddhi
-Creation Date: 06 Apr, 2019
+Date: 06 Apr, 2019
 Place : Bangalore
 '''
 
