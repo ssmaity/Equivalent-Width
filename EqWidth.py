@@ -5,8 +5,6 @@ Creation Date: 06 Apr, 2019
 Place : Bangalore
 '''
 
-
-import matlotlib.pyplot as plt
 import numpy as np
 
 def width(x,y,N):
@@ -19,6 +17,10 @@ def width(x,y,N):
 
 wla = 6172.34 # lower wavelength
 wlb = 6174.34 # higher wavelength
+wld = 0.02    # wavelength difference
+
+x = np.arange(wl, wlb, wld)
+y = loadtxt('datafile.csv') # load data file
 N = len(x)
 eqwidth = width(x,y,N)
 print(eqwidth)
